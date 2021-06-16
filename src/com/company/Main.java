@@ -8,6 +8,7 @@ public class Main {
         String b = new String("Help");
         String c = a.intern();
 
+        //compares
         System.out.println(a == b);
         System.out.println(a == c);
 
