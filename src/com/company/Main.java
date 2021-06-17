@@ -8,6 +8,7 @@ public class Main {
         String b = new String("Help"); // this variable must be the same - "Hello!". Try with it and see the result 
         String c = a.intern();
 
+        //compares
         System.out.println(a == b);
         System.out.println(a == c);
 
