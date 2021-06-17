@@ -4,13 +4,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String a = "Hello!";
-        String b = new String("Help");
-        String c = a.intern();
+        String str1 = "Hello!";
+        String str2 = new String("Hello!");
+        String str3 = str1.intern();
 
         //compares
-        System.out.println(a == b);
-        System.out.println(a == c);
+        System.out.println(str1 == str2);
+        System.out.println(str1 == str3);
 
 
     }
