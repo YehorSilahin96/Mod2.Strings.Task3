@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         String str1 = "Hello!";
-        String str2 = new String("Hello!");
+        String str2 = new String("Hello!"); //same to str1
         String str3 = str1.intern();
 
         //compares
